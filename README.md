@@ -1,41 +1,66 @@
 # Tomisin Analytics — Project Portfolio
 
+## About Me & This Repository
 
-## About
-This repository is my living record of applied analytics work, organized into four domains: customer analytics, operations, geoscience, and business intelligence. Each project follows the same rigorous arc — starting from a clearly framed problem, moving through the dataset and methodology, and ending with findings that carry real business or scientific weight. I built this not just to showcase what I can build, but to show how I think: how I connect raw data to the decisions it should inform. Whether you're here to evaluate my technical depth or my judgment, every folder is designed to answer one question clearly — so what? Browse by domain, or jump straight into a project that matches your interest. Feedback and collaboration are always welcome.
+I'm an aspiring data analyst with a passion for turning raw, messy data into clear, actionable decisions. This repository is my public workspace — a living record of my applied analytics work. 
 
-## Projects
+Currently, I am actively working through the **BuildLabs Internship (Nexus Fellowship)**, where I tackle real-world business challenges end-to-end. My first task—a deep-dive Exploratory Data Analysis on retail sales—is fully completed and documented here. 
 
-| # | Domain | Status | Focus |
-|---|--------|--------|-------|
-| 01 | Customer Analytics | WIP | Churn prediction & customer segmentation |
-| 02 | Operations Analytics | WIP | Supply chain / process optimization |
-| 03 | Geoscience Analytics | WIP | Sensor or subsurface data interpretation |
-| 04 | Business Intelligence | WIP | KPI dashboards & executive reporting |
+In the near future, this repo will expand to include projects across four core analytics domains (see Roadmap below). For now, I invite you to explore my analytical process: how I frame problems, explore data, extract insights, and translate numbers into business recommendations. 
 
+---
+
+## Featured Project (Completed)
+
+| Project | Domain | Description | Link |
+|---------|--------|-------------|------|
+| **Task 1: Retail Sales EDA** | Customer & Product Analytics | Comprehensive EDA uncovering seasonal sales trends, top customer demographics, and product performance. Delivers 3 specific, actionable recommendations for retail managers. | [`BuildLabs_Internship[Nexus_Fellowship]/Task1`](./BuildLabs_Internship%5BNexus_Fellowship%5D/Task1/) |
+
+---
+
+## 🗺️ Roadmap (Upcoming Projects)
+
+I am currently preparing these four domains for future work. They will be populated as I complete new projects:
+
+| # | Domain | Planned Focus |
+|---|--------|---------------|
+| 01 | Customer Analytics | Churn prediction, RFM segmentation, Customer Lifetime Value (CLV) modeling |
+| 02 | Operations Analytics | Supply chain optimization, inventory forecasting, bottleneck analysis |
+| 03 | Geoscience Analytics | Sensor data interpretation, subsurface mapping, time-series anomaly detection |
+| 04 | Business Intelligence | Executive KPI dashboards (Power BI/Tableau), automated reporting pipelines |
+
+---
+
+## 🛠️ Tech Stack (General)
+- **Languages**: Python (pandas, numpy, scikit-learn), SQL  
+- **Visualisation**: Matplotlib, Seaborn, Plotly, Power BI, Tableau  
+- **Environment**: Jupyter Notebook, VS Code, Git/GitHub  
+
+---
 
 ## Getting Started
 
-**Explore a project:**
-1. Open any domain folder from the structure above.
-2. Read its `README.md` — each one walks through the full 7-step framework: **Problem → Dataset → Method → Analysis → Findings → Implication → Recommendation**.
+**Explore the completed project:**
+1. Navigate to the `BuildLabs_Internship[Nexus_Fellowship]/Task1` folder.
+2. Read its `README.md` for a full walkthrough of the 7-step framework: **Problem → Dataset → Method → Analysis → Findings → Implication → Recommendation**.
+3. Open the `.ipynb` notebook to see the code and visualisations.
 
-**Run the code (once projects are published):**
-```bash  
-git clone https://github.com/Tomisin510/Tomisin-Analytics.git  
-cd Tomisin-Analytics/01_customer_analytics  
-# follow instructions in the project's README
+**To run the code locally:**
+```bash
+git clone https://github.com/Tomisin510/Tomisin-Analytics.git
+cd Tomisin-Analytics/"BuildLabs_Internship[Nexus_Fellowship]/Task1"
+# Install dependencies: pip install pandas matplotlib seaborn jupyter
+# Launch: jupyter notebook
+```
+
+---
+
+## Connect with Me
+GitHub: github.com/Tomisin510
+LinkedIn: linkedin.com/in/tomisin-obijole/
+Email: danieltomisin97@gmail.com
+
+Feedback, collaborations, and networking are always welcome — don't hesitate to reach out.
 
 
 
----  
-
-A few tips on editing the placeholders:  
-
-1. **Focus column** — The lines I wrote are "safe defaults." Swap them for your real project topics as soon as you have them, since a generic line like "churn prediction" becomes a lot more credible when matched to an actual project. E.g., "Churn prediction & customer segmentation" → "Predicting telecom churn with a 12% lift in retention targeting."  
-
-2. **Status column** — Keep things honest. "WIP" signals intentional, in-progress work to recruiters, which is fine for a Day 6 repo. Flip to "Complete" as you finish each.  
-
-3. **URL placeholder** — Replace `<your-username>` with your actual GitHub handle, and fill in the LinkedIn/email fields so the repo is fully clickable.  
-
-Want me to also put together a one-page "Getting Started" specifically for *non-technical* recruiters (a short explanation of what each domain covers in plain language)? That can live at the top of the README above the technical setup.
